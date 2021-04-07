@@ -38,7 +38,6 @@ blockquote, q {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
 }
 
 /* General Styles */
@@ -74,6 +73,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: 'Roboto Mono', monospace;;
 }
 
 .orange {
@@ -102,12 +102,74 @@ nav a {
 
 .left img {
     border-radius: 50%;
-    width: 60%;
+    width: 20%;
+    margin: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .right {
     padding: 4%;
-    line-height: 2;
     position: absolute;
+    margin-left: 25%;
     bottom: 20%;
+    top: 0%;
+}
+
+.right h1 {
+    font-size: 10rem;
+    text-align: center;
+}
+
+.right h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.right p {
+    text-align: center;
+    font-size: 3rem;
+    max-width: 50%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin: auto;
+}
+
+.para1 {
+    background-color: #DDB9A3;
+    color: white;
+    margin: 0% 2.5% 0% 2.5%;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.images {
+    margin: 0% 35% 0% 35%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.images img {
+    width: 60%;
+    height: auto;
+}
+
+.images p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ .images p .bold {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+ }
+
+.btm {
+    background-image: url("assets/footer_img.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
